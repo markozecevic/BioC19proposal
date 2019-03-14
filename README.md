@@ -6,11 +6,28 @@ Marko Zecevic - marko.zecevic at sbgenomics.com
 
 # Workshop Description
 
-The Cancer Genomics Cloud (CGC), powered by Seven Bridges and funded by the NCI hosts several massive public datasets alongside secure and scalable computational resources and optimized, portable bioinformatics tools. These tools, written in a variety of programming languages, are wrapped in Common Workflow Language (CWL) — a specification for describing analysis workflows and tools in a way that allows for platform interoperability and scalability. 
+Do you have important analysis tools written up as R scripts on your local machine?  
+Would you like to reach a larger audience with those scripts?  
+Would you like to ensure other researchers can run analyses in the exact way that you intend?  
+Yes? Then this workshop is for you!
 
-Many of the public tools are R scripts based on popular R/Bioconductor packages that can be run from the GUI or via API. We believe that scientific research communities would benefit greatly if these were integrated on a larger scale. Wrapping your tools in CWL and publishing them to CGC would enable you to share your data analysis workflows with a wide audience of researchers. 
+We will present a guide and best practices for creating container images ([Docker]) out of your R scripts, 
+wrapping them in the Common Workflow Language ([CWL]) and then sharing them with the wider world,
+starting with the large audience of researchers working on the Cancer Genomics Cloud ([CGC]).
 
-In this workshop, we will present a guide and best practices for wrapping R scripts as CWL tools for integration into CGC (or any platform that supports CWL) in hope of encouraging R package authors to come up with their own, author-supported wrappers for the tools they are developing.
+[CWL] is a widely adopted, platform agnostic, standard for describing workflows with plain text documents.
+Applications described with Docker images and CWL will run consistently, in the way you intend, on 
+everything from your local computer, your HPC, to your cloud infrastructure and various cloud platforms.
+
+The Cancer Genomics Cloud ([CGC]), a genomics analysis platform funded by the NCI and built and run by 
+Seven Bridges Genomics, hosts several massive public datasets alongside secure and scalable computational resources 
+and optimized, portable bioinformatics tools. These tools, written in a variety of programming languages, 
+are wrapped in Common Workflow Language (CWL).
+
+[CWL]: https://www.commonwl.org/
+[CGC]: https://cgc.sbgenomics.com
+[Docker]: https://www.docker.com/resources/what-container
+
 
 ## Pre-requisites
 
@@ -43,9 +60,14 @@ Participants will be guided through an Rmarkdown document and optionally try to 
 
 * Get familiar with the concept of Common Workflow Language
 * Make your R analysis portable and reproducible
+* See how easy and quick it is to convert your R script to a portable, scalable application
 
 ### Learning objectives
 
 * Build a Docker image with all the dependencies required for your analysis
 * Use docopt to define the interface for running your script as a command-line tool
 * Use Rabix composer to create a CWL description of your R analysis
+
+# References
+
+[CWL user guide](https://www.commonwl.org/user_guide/index.html) (Browse this if you want to get a head start on CWL!)
