@@ -19,7 +19,7 @@ In this workshop, we will present a guide and best practices for wrapping R scri
 
 ## Workshop Participation
 
-Participants will be guided through an Rmarkdown document and optionaly try to create a wrapper for a script of their choice.
+Participants will be guided through an Rmarkdown document and optionally try to create a wrapper for a script of their choice.
 
 ## _R_ / _Bioconductor_ packages used
 
