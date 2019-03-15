@@ -31,7 +31,7 @@ are wrapped in Common Workflow Language (CWL).
 ## Pre-requisites
 
 * Basic familiarity with R package management
-* No prior experience with CWL is necessary but could be useful
+* No prior experience with CWL is necessary!
 
 ## Workshop Participation
 
