@@ -19,8 +19,7 @@ starting with the large audience of researchers working on the Cancer Genomics C
 Applications described with Docker images and CWL will run consistently, in the way you intend, on 
 everything from your local computer, your HPC, to your cloud infrastructure and various cloud platforms.
 
-The Cancer Genomics Cloud ([CGC]), a genomics analysis platform funded by the NCI and built and run by 
-Seven Bridges Genomics, hosts several massive public datasets alongside secure and scalable computational resources 
+The Cancer Genomics Cloud ([CGC]), a genomics analysis platform funded by the NCI and powered by Seven Bridges, hosts several massive public datasets alongside secure and scalable computational resources 
 and optimized, portable bioinformatics tools. These tools, written in a variety of programming languages, 
 are wrapped in Common Workflow Language (CWL).
 
@@ -35,7 +34,7 @@ are wrapped in Common Workflow Language (CWL).
 
 ## Workshop Participation
 
-Participants will be guided through an R Markdown document. Rabix Composer (CWL editor) will be used, but creating CWL descriptions is also possible from within R and will be demonstrated. Participants are encouraged to try and create a wrapper for a script of their own.
+Participants will be guided through an R Markdown document. Rabix Composer (CWL editor) will be used, but creating CWL descriptions is also possible from within R and will be demonstrated. Participants are encouraged to try and create a wrapper for a script on their own.
 
 ## _R_ / _Bioconductor_ packages used
 
