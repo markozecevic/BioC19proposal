@@ -2,7 +2,7 @@
 
 # Instructor(s) name(s) and contact information
 
-Marko Zecevic - marko.zecevic at sbgenomics.com
+Marko Zecevic - [marko.zecevic@sbgenomics.com](mailto:marko.zecevic@sbgenomics.com)
 
 # Workshop Description
 
@@ -28,7 +28,6 @@ are wrapped in Common Workflow Language (CWL).
 [CGC]: https://cgc.sbgenomics.com
 [Docker]: https://www.docker.com/resources/what-container
 
-
 ## Pre-requisites
 
 * Basic familiarity with R package management
@@ -36,12 +35,13 @@ are wrapped in Common Workflow Language (CWL).
 
 ## Workshop Participation
 
-Participants will be guided through an Rmarkdown document and optionally try to create a wrapper for a script of their choice.
+Participants will be guided through an R Markdown document. Rabix Composer (CWL editor) will be used, but creating CWL descriptions is also possible from within R and will be demonstrated. Participants are encouraged to try and create a wrapper for a script of their own.
 
 ## _R_ / _Bioconductor_ packages used
 
 - docopt
 - sevenbridges
+- Rcwl
 
 ## Time outline
 
@@ -49,10 +49,10 @@ Participants will be guided through an Rmarkdown document and optionally try to 
 |----------------------------------------------|------|
 | Introduction to CWL                          | 10m  |
 | Building your Docker image                   | 15m  |
-| Turning your script into a command line tool | 15m  |
-| Creating the wrappers                        | 20m  |
-| Share it with the world!                     | 10m  |
-| QA and free activities                       | 20m  |
+| Turning your script into a command line tool | 10m  |
+| Creating the wrapper                         | 40m  |
+| Sharing it with the world                    | 10m  |
+| Q&A and practice time                        | 45m  |
 
 # Workshop goals and objectives
 
@@ -66,7 +66,7 @@ Participants will be guided through an Rmarkdown document and optionally try to 
 
 * Build a Docker image with all the dependencies required for your analysis
 * Use docopt to define the interface for running your script as a command-line tool
-* Use Rabix composer to create a CWL description of your R analysis
+* Use Rabix Composer to create a CWL description of your R analysis
 
 # References
 
